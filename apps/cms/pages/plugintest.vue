@@ -1,4 +1,8 @@
 <template>
+    <h2>common componets</h2>
+    <common-btn>윤지훈입니다</common-btn>
+    <br>
+    --------------------<br>
     <h2>vue-i18n plugin</h2>
     <h1>{{ $t('hello', {name: 'vue-i18n'}) }}</h1>
     --------------------<br>
@@ -6,14 +10,20 @@
     <p>{{ $d(new Date(), 'short') }}</p>
     <p>{{ $d(new Date(), 'long') }}</p>
     <p>{{ $d(new Date(), 'time') }}</p>
+    --------------------<br>
+    <h2>dialog plugin</h2>
+    <button type="button" @click="dialog2('alert')">Alert</button>
+    <button type="button" @click="dialog2('confirm')">confirm</button>
 
 </template>
 
 <script setup lang="ts">
-// import {useDialogStore} from "~/store/dialog";
-//
-// const dialog = useDialogStore()
-// console.log(dialog)
+import {useDialogStore} from "../../../packages/common-packages/lib/store/dialog";
+
+const { $alert, $confirm } = useNuxtApp()
+
+const dialog = useDialogStore()
+console.log(dialog)
 
 const textVal = ref('텍스트')
 const selectVal = ref('a')
@@ -30,6 +40,14 @@ const selectOption = ref<{label:String, value:String}[]>([
 
 function changeEvent (val) {
     console.log(val)
+}
+
+function dialog2 (type:string) {
+    if (type === 'alert') {
+        $alert({title: '얼럿', msg: '얼럿 문구'})
+    } else {
+        $confirm({title: '컨펌', msg: '컨펌 문구'})
+    }
 }
 </script>
 

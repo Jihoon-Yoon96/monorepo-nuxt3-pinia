@@ -4,45 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/layouts/default.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/pages/pinia.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/pages/plugintest.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sub1/layouts/default.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sub1/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sub1/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Btn.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/layouts/default.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dayjs.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dialog.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/helper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/i18n.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/en/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/en/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/en/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/ko/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/ko/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/ko/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/nuxt.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/server/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tsconfig.json" afterDir="false" />
+    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/apps/cms/pages/veevalidate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Dialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/store/dialog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/pages/plugintest.vue" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/pages/plugintest.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/common-packages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dialog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/common-packages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/test/packages/common-packages/lib/plugins",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/test/packages/common-packages/lib/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +60,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\test\packages\common-packages\lib\components" />
+      <recent name="C:\Users\user\IdeaProjects\test\packages\common-packages\lib\store" />
+      <recent name="C:\Users\user\IdeaProjects\test\apps\sub1\pages" />
       <recent name="C:\Users\user\IdeaProjects\test\packages\common-packages\lib\plugins" />
       <recent name="C:\Users\user\IdeaProjects\test\packages\common-packages\lib" />
     </key>
@@ -100,11 +75,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685406655287</updated>
-      <workItem from="1685406656194" duration="6906000" />
+      <workItem from="1685406656194" duration="11644000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1685416223255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685416223255</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1685416249909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685416249909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

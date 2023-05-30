@@ -1,9 +1,9 @@
-import {useDialogStore} from "../../store/dialog";
-import { createPinia } from 'pinia'
-
-const pinia = createPinia()
-// app.use(pinia)
-useNuxtApp(pinia)
+import {useDialogStore} from "../store/dialog";
+// import { createPinia } from 'pinia'
+//
+// const pinia = createPinia()
+// // app.use(pinia)
+// useNuxtApp(pinia)
 
 /**
  * const { $alert, #$confirm } = useNuxtApp()
