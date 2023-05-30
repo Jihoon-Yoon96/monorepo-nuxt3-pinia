@@ -1,0 +1,20 @@
+{
+  "name": "cms",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port=3010",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.5.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "common-packages": "workspace:^",
+    "pinia": "^2.1.3"
+  }
+}

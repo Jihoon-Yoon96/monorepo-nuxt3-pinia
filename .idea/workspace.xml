@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cms/layouts/default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cms/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cms/pages/pinia.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cms/pages/plugintest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cms/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sub1/layouts/default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sub1/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sub1/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Btn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/layouts/default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dayjs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dialog.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/i18n.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/en/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/en/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/en/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/ko/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/ko/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/sheets/locales/ko/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/nuxt.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/server/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QUSQoe8xrijyzfziuUsjO7meGC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/test/packages/common-packages/lib/plugins",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\test\packages\common-packages\lib\plugins" />
+      <recent name="C:\Users\user\IdeaProjects\test\packages\common-packages\lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="" />
+      <created>1685406655287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685406655287</updated>
+      <workItem from="1685406656194" duration="6906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
