@@ -15,6 +15,7 @@ import {useDialogStore} from "../store/dialog";
  * $confirm({title: 'Confirm Title', msg: 'Alert Description'})
  * */
 export default defineNuxtPlugin((nuxtApp) => {
+    console.log('dialog')
     /** alert / confirm */
     const dialog = useDialogStore()
     nuxtApp.provide('alert', (param: {

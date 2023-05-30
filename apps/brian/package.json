@@ -1,5 +1,5 @@
 {
-  "name": "sub1",
+  "name": "brian",
   "private": true,
   "scripts": {
     "build": "nuxt build",

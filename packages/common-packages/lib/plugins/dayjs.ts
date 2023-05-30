@@ -8,6 +8,7 @@ import koLocales from '../sheets/locales/ko/index'
 
 
 export default defineNuxtPlugin (nuxtApp => {
+    console.log('dayjs')
     dayjs.locale('ko')
 
     dayjs.extend(relativeTime)

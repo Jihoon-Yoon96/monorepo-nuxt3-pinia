@@ -3,6 +3,7 @@ import en from '../sheets/locales/en/index'
 import ko from '../sheets/locales/ko/index'
 
 export default defineNuxtPlugin((nuxtApp) => {
+    console.log('i18n')
     const i18n = createI18n({
         legacy: false,
         globalInjection: true,
@@ -29,4 +30,5 @@ export default defineNuxtPlugin((nuxtApp) => {
     })
     nuxtApp.vueApp.use(i18n)
     nuxtApp._i18n = i18n
+    console.log('@@@@@@@@@@@@@@@@@@###########')
 })

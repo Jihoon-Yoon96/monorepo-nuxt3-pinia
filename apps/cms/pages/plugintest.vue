@@ -21,6 +21,7 @@
 import {useDialogStore} from "../../../packages/common-packages/lib/store/dialog";
 
 const { $alert, $confirm } = useNuxtApp()
+console.log('nuxtApp', useNuxtApp())
 
 const dialog = useDialogStore()
 console.log(dialog)

@@ -18,11 +18,13 @@ export default defineNuxtModule({
 
         const { resolve } = createResolver(import.meta.url)
 
-        // add the helper plugin
+        // plugin (밑에서부터 위 순서로 인식됨)
         addPlugin(resolve('lib/plugins/helper.ts'))
-        addPlugin(resolve('lib/plugins/i18n.ts'))
         addPlugin(resolve('lib/plugins/dayjs.ts'))
         addPlugin(resolve('lib/plugins/dialog.ts'))
+        addPlugin(resolve('lib/plugins/vee-validate.js'))
+        addPlugin(resolve('lib/plugins/i18n.ts'))
+        addPlugin(resolve('lib/plugins/popup.ts'))
     },
 })
 

@@ -24,8 +24,8 @@ function close (result) {
 }
 </script>
 
-<!--<style scoped lang="scss">-->
-<!--.dimmed { position:fixed; top:0; bottom:0; left:0; right:0; display:flex; justify-content:center; align-items:center; background-color:var(&#45;&#45;overlay-color);-->
-<!--  .dialog { max-height:calc(100% - 60px); background-color:var(&#45;&#45;background-normal); color:var(&#45;&#45;foreground-normal); overflow:auto;}-->
-<!--}-->
-<!--</style>-->
+<style scoped lang="scss">
+.dimmed { position:fixed; top:0; bottom:0; left:0; right:0; display:flex; justify-content:center; align-items:center; background-color:var(--overlay-color);
+  .dialog { max-height:calc(100% - 60px); background-color:var(--background-normal); color:var(--foreground-normal); overflow:auto;}
+}
+</style>
