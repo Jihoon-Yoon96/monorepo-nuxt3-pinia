@@ -4,44 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="pinia 공유 드디어 성공..">
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Boolean.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Dropdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/DropdownItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Field.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Popup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/SInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Select.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/popup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/vee-validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/store/appOption.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common-packages/lib/store/popup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/pages/plugintest.vue" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/pages/plugintest.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/pages/veevalidate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/pages/veevalidate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/app.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/layouts/default.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/nuxt.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/pages/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/pages/plugintest.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/server/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/store/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sub1/yarn.lock" beforeDir="false" />
+    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="vee-validate 성공">
       <change beforePath="$PROJECT_DIR$/packages/common-packages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/components/Btn.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Btn.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/components/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/components/Dialog.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dayjs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dayjs.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dialog.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/helper.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/i18n.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/popup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/popup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/vee-validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/vee-validate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +77,7 @@
       <workItem from="1685406656194" duration="15847000" />
       <workItem from="1685427280675" duration="5188000" />
       <workItem from="1685437534228" duration="11000" />
+      <workItem from="1685438854361" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685416223255</created>
@@ -130,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685422955342</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vee-validate 성공">
+      <created>1685438943025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685438943025</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="pinia 공유 드디어 성공.." />
-    <option name="LAST_COMMIT_MESSAGE" value="pinia 공유 드디어 성공.." />
+    <MESSAGE value="vee-validate 성공" />
+    <option name="LAST_COMMIT_MESSAGE" value="vee-validate 성공" />
   </component>
 </project>

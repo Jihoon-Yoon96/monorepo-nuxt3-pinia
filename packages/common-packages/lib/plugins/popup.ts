@@ -1,7 +1,6 @@
 import {usePopupStore} from "../store/popup";
 
 export default defineNuxtPlugin((nuxtApp) => {
-    console.log('popup')
     const popupStore = usePopupStore()
     /** Popup */
     nuxtApp.provide('openPopup', async (popup:any) => {

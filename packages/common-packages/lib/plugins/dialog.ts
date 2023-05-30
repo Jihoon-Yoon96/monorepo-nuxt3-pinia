@@ -1,9 +1,4 @@
 import {useDialogStore} from "../store/dialog";
-// import { createPinia } from 'pinia'
-//
-// const pinia = createPinia()
-// // app.use(pinia)
-// useNuxtApp(pinia)
 
 /**
  * const { $alert, #$confirm } = useNuxtApp()
@@ -15,7 +10,6 @@ import {useDialogStore} from "../store/dialog";
  * $confirm({title: 'Confirm Title', msg: 'Alert Description'})
  * */
 export default defineNuxtPlugin((nuxtApp) => {
-    console.log('dialog')
     /** alert / confirm */
     const dialog = useDialogStore()
     nuxtApp.provide('alert', (param: {

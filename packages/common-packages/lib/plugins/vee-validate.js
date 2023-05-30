@@ -4,8 +4,6 @@ import {required, email, min, confirmed } from "@vee-validate/rules/dist/vee-val
 import {Form, Field, ErrorMessage} from 'vee-validate'
 
 export default defineNuxtPlugin((nuxtApp) => {
-    console.log('vee-validate2')
-    // console.log('@@@@@@@@@@@@@@@nuxtApp-pluginuxtApp-plugi@@@@@@@@@n', nuxtApp)
     const _i18n = nuxtApp._i18n.global
 
     defineRule('required', required);
