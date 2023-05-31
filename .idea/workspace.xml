@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="vee-validate 성공">
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dayjs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dayjs.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/dialog.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/i18n.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/popup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/popup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common-packages/lib/plugins/vee-validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common-packages/lib/plugins/vee-validate.js" afterDir="false" />
+    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="plugin 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,8 @@
       <workItem from="1685406656194" duration="15847000" />
       <workItem from="1685427280675" duration="5188000" />
       <workItem from="1685437534228" duration="11000" />
-      <workItem from="1685438854361" duration="304000" />
+      <workItem from="1685438854361" duration="611000" />
+      <workItem from="1685492894951" duration="5085000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685416223255</created>
@@ -107,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685438943025</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="plugin 수정">
+      <created>1685439451810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685439451810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +132,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="pinia 공유 드디어 성공.." />
     <MESSAGE value="vee-validate 성공" />
-    <option name="LAST_COMMIT_MESSAGE" value="vee-validate 성공" />
+    <MESSAGE value="plugin 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin 수정" />
   </component>
 </project>

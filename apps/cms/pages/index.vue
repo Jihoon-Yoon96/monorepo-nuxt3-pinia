@@ -12,12 +12,12 @@
             <h3>index.combinedValue : {{index.combinedValue}}</h3>||
             <h3>test2 : {{test2}}</h3>
         </div>
-        <v-btn color="primary" @click="add">클릭하면 값 변화</v-btn>
+        <button color="primary" @click="add">클릭하면 값 변화</button>
 
         <h4>3. action</h4>
         <h1>{{ index.text }}</h1>
         <input placeholder="바꿀 텍스트 입력" v-model="text" @keydown.enter.prevent="changeTxt(text)"/>
-        <v-btn @click="changeTxt(text)">클릭하면 텍스트 변화</v-btn>
+        <button @click="changeTxt(text)">클릭하면 텍스트 변화</button>
     </div>
 </template>
 
