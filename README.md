@@ -29,8 +29,8 @@ pnpm run -r build
 
 개별 프로젝트 실행 명령어:
 ```shell
-pnpm --filter website1 run cms
-pnpm --filter website2 run brian
+pnpm --filter cms run dev
+pnpm --filter brian run dev
 ```
 #### cms프로젝트 : port = 3010 
 #### brian 프로젝트 : port = 3020
