@@ -26,7 +26,7 @@ import {useIndexStore} from "~/store";
 import {onMounted} from "#imports";
 
 const index = useIndexStore()
-const test = computed(() => index.value1); // nuxt3에선 $set이 사라져서, computed로 객체 변경값을 감지해야 됨
+const test = computed(() => index.value1);
 const test2 = computed(() => index.combinedValue);
 
 // watch 객체 변경 감지 예시

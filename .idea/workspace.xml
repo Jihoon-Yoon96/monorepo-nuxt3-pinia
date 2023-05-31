@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="plugin 수정">
+    <list default="true" id="4a82e0f9-9c7c-4335-908b-4bab1d1cae5c" name="Changes" comment="README 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/cms/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,8 @@
       <workItem from="1685427280675" duration="5188000" />
       <workItem from="1685437534228" duration="11000" />
       <workItem from="1685438854361" duration="611000" />
-      <workItem from="1685492894951" duration="5085000" />
+      <workItem from="1685492894951" duration="6163000" />
+      <workItem from="1685515763544" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685416223255</created>
@@ -111,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685439451810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="수정">
+      <created>1685514704734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685514704734</updated>
+    </task>
+    <task id="LOCAL-00007" summary="README 추가">
+      <created>1685515043227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685515043227</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +149,8 @@
     <MESSAGE value="pinia 공유 드디어 성공.." />
     <MESSAGE value="vee-validate 성공" />
     <MESSAGE value="plugin 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="plugin 수정" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="README 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="README 추가" />
   </component>
 </project>

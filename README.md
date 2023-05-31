@@ -2,6 +2,15 @@
 READ MORE ABOUT THE ARTICLE FROM THIS LINK:
 [Vue School Article](https://vueschool.io/articles/vuejs-tutorials/scalable-nuxt-3-monorepos-with-pnpm-workspaces/)
 
+개발환경
+```shell
+node  : v18.16.0
+npm   : v9.5.1
+pnpm  : v8.5.1
+yarn  : v1.22.19
+nuxt  : v3.5.2
+pinia : v2.1.3 
+```
 
 packages 설치 명령어:
 ```shell
